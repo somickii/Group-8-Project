@@ -1,0 +1,17 @@
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .5;
+    background: #040e26;
+}
+
+.text{
+    padding-top: 79%;
+}
+.t1{
+    color: #ffffff;
+}
