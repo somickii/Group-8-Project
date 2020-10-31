@@ -1,0 +1,30 @@
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .5;
+    background: #040e26;
+}
+.carousel .carousel-inner{
+    height:500px
+    }
+    .carousel-inner .carousel-item img{
+    min-height:200px;
+    object-fit:cover
+    }
+    
+    @media(max-width:768px){
+    .carousel .carousel-inner{
+    height:auto
+     }
+    }
+
+.text{
+    padding-top: 79%;
+}
+.t1{
+    color: #ffffff;
+} 
