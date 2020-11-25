@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Gallery</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">CHIPS@NCU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Club members.html">Meet Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Chips Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contactUs.html">Contact Us <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="container my-5">
+
+        <!-- Section -->
+        <section>
+          
+          <style>
+            .gallery {
+              -webkit-column-count: 3;
+              -moz-column-count: 3;
+              column-count: 3;
+              -webkit-column-width: 33%;
+              -moz-column-width: 33%;
+              column-width: 33%; 
+            }
+              .gallery .pics {
+              -webkit-transition: all 350ms ease;
+              transition: all 350ms ease; 
+            }
+              .gallery .animation {
+              -webkit-transform: scale(1);
+              -ms-transform: scale(1);
+              transform: scale(1); 
+            }
+      
+            @media (max-width: 450px) {
+              .gallery {
+                -webkit-column-count: 1;
+                -moz-column-count: 1;
+                column-count: 1;
+                -webkit-column-width: 100%;
+                -moz-column-width: 100%;
+                column-width: 100%;
+              }
+            }
+      
+            @media (max-width: 400px) {
+              .btn.filter {
+                padding-left: 1.1rem;
+                padding-right: 1.1rem;
+              }
+            }
+            button.close {
+              position: absolute;
+              right: 0;
+              z-index: 2;
+              padding-right: 1rem;
+              padding-top: .6rem;
+            }
+          </style>
+          
+          <!-- Modal -->
+              <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                          <div class="modal-body p-0">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                              
+                              <!-- Grid row -->
+                              <div class="row">
+                              
+                                  <!-- Grid column -->
+                                  <div class="col-md-6 py-5 pl-5">
+                                      
+                                      <h5 class="font-weight-normal mb-3">Chips Club</h5>
+      
+                                      <p class="text-muted">"We love and appreciate each memory a photography or video holds so we cherish these moments as we grow old". MR</p>
+                                      
+                                  </div>
+                                  <!-- Grid column -->
+                              
+                                  <!-- Grid column -->
+                                  <div class="col-md-6">
+                                      
+                                      <div class="view rounded-right">
+                                          <img class="img-fluid" src="https://i.imgur.com/09ZR1Yt.jpg" alt="Chips Team">
+                                      </div>
+                                      
+                                  </div>
+                                  <!-- Grid column -->
+                              
+                              </div>
+                              <!-- Grid row -->
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          <h3 class="font-weight-bold text-center dark-grey-text pb-2">CHIPS GALLERY</h3>
+          <hr class="w-header my-4">
+          <p class="lead text-center text-muted pt-2 mb-5">You can find several significant moments on this page.</p>
+      
+          <!-- Grid row -->
+          <div class="row">      
+          </div>
+          <!-- Grid row -->
+      
+          <!-- Grid row -->
+          <div class="gallery mb-5" id="gallery">
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics all 2 animation">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/XaTuEXi.png" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/vcfRNyx.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/SDl0IjM.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics all 2 animation">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/Zc20jLt.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics all 2 animation">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/NMfSCYa.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/WEQJJU9.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+          <div class="row">
+          </div>
+          <!-- Grid row -->
+          <div class="gallery mb-5" id="gallery">
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics all 2 animation">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/qS7vqII.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://i.imgur.com/FpzQNaJ.mp4"></iframe>
+              </div>
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/Ben3Q8v.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/Ben3Q8v.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+            <div class="mb-3 pics all 2 animation">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/vsjNQKm.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics all 2 animation">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/yYjJrmw.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+              <a data-toggle="modal" data-target="#basicExampleModal">
+                <img class="img-fluid z-depth-1 rounded" src="https://i.imgur.com/uVvNgQK.jpg" alt="Card image cap">
+              </a>
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+          
+        </section>
+        <!-- Section -->
+      
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../javascript/tiles.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
