@@ -11,8 +11,16 @@
   <title>ContactUs</title>
 
   <!-- Bootstrap core CSS -->
+<<<<<<< HEAD
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/styleContactUs.css" rel="stylesheet">
+=======
+  <link href="../css/contactus.css" rel="stylesheet">
+  <link href="../css/bootstrap css/bootstrap.css" rel="stylesheet">
+  <link href="../css/bootstrap css/bootstrap-grid.css" rel="stylesheet">
+  <link href="../css/bootstrap css/bootstrap-reboot.css" rel="stylesheet">
+
+>>>>>>> 81769cc668e0d34e1916a73ef278fc9f183b3b38
 
 </head>
 
@@ -49,26 +57,29 @@ footer{
 }
  </style>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">CHIPS@NCU</a>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">CHIPS@NCU</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon bg-primary"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only"></a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="Club members.html">Meet Members</a>
+          <a class="nav-link" href="#">Meet Members</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Chips Clubs</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contactUs.html">Contact Us <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">About</a>
         </li>
       </ul>
+      <span class="navbar-text">
+        Contact Us<span class="sr-only">(current)</span>
+      </span>
     </div>
   </nav>
 
@@ -90,6 +101,7 @@ footer{
     </div>
   </div>
 </section>
+
  <!---Carousel--->
  <Section>
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -102,35 +114,35 @@ footer{
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/pic1.JPG" height="600px" class="d-block w-100" alt="chips">
+        <img src="https://imgur.com/5ooMtwv" height="600px" class="d-block w-100" alt="chips">
         <div class="carousel-caption d-none d-md-block">
           <h5>HQ</h5>
           <p>CHIPS computer lab AKA headquaters.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/pic2.JPG" height="600px" class="d-block w-100" alt="Chips">
+        <img src="https://imgur.com/GTHjxrK" height="600px" class="d-block w-100" alt="Chips">
         <div class="carousel-caption d-none d-md-block">
           <h5>Games</h5>
           <p>Domino Tournament.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/pic3.JPG" height="600px" class="d-block w-100" alt="CHIPS">
+        <img src="https://imgur.com/jENm3qK" height="600px" class="d-block w-100" alt="CHIPS">
         <div class="carousel-caption d-none d-md-block">
           <h5>Club</h5>
           <p>Robotics</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/pic4.JPG" height="600px"  class="d-block w-100" alt="CHIPS">
+        <img src="https://imgur.com/qo2JHNv" height="600px"  class="d-block w-100" alt="CHIPS">
         <div class="carousel-caption d-none d-md-block">
           <h5>Games</h5>
           <p>Checkers/Chess</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/pic5.jpg" height="600px" class="d-block w-100" alt="CHIPS">
+        <img src="https://imgur.com/gV2FN0g" height="600px" class="d-block w-100" alt="CHIPS">
         <div class="carousel-caption d-none d-md-block">
           <h5>Fifth slide label</h5>
           <p>Girls Hackathon Team</p>
@@ -173,10 +185,38 @@ footer{
       </div>
     </form>
 </Section>
+  <!---Cards-->
+  <div class="card-group">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CHIPS</h5>
+        <p class="card-text">CHIPS chess-club</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
   
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.slim.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../javascript/Jquery/jquery.slim.min.js"></script>
+  <script src="../javascript/Bootstrap js/bootstrap.bundle.js"></script>
+  <script src="../javascript/Bootstrap js/bootstrap.js"></script>
   <!--Footer-->
 <footer>
   <p>Floyd Farquharson &#169 2020</p>
