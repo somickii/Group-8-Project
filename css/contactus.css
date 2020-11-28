@@ -1,0 +1,47 @@
+body{
+    background-color:grey !important;
+}
+
+.navbar-toggler-icon{
+    color: #ffcd24;
+}
+.navbar-toggler-icon span{
+    background-color: #006fb9;
+}
+.jumbotron jumbotron-fluid{
+    color:#ffcd24;
+}
+.navbar{
+    background-color: #ffcd24;
+}
+.content{
+    justify-content: center !important;
+    width: 100% !important;
+    clear: both;
+    padding: 20px 10px 0px 10px;
+}
+#wrapper{
+    display: flex;
+}
+
+.Greetings{
+    color: white;
+    flex: 0 0 65%;
+}
+.credentials{
+    flex: 1;  
+}
+.Cards{
+    width: 100%;
+    bottom: 0%;
+}
+.content {
+    margin-top: -0.25rem !important;
+  }
+footer{
+    text-align: center;
+    justify-content: center;
+    color: #006fb9;
+    background-color: #ffcd24;
+    clear: both;
+}

@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <title>Bootstrap Example</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<!--INTERNAL STYLE SHEET-->
+ <style>
+  body {
+      
+      background-color: #006fb9;
+
+     }
+
+     h1 { 
+  display: block;
+  
+  margin-top: 1em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+   }
+
+  {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  max-width: 33.3%;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #ffcd24;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+  .box {
+  background-color: #006fb9;
+  width: 1000px;
+  border: 0px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #ffcd24 ;
+  color: white;
+}
+  
+ 
+  
+  </style>
+<body>
+<!-- NAVIGATION BAR USING BOOTSTRAP-->
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">CHIPS@NCU</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="Club members.html">Meet Members</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Chips Clubs</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contactUs.html">Contact Us <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- CARD FLIP HTML CODE WITH IMAGES-->
+
+        </div>
+      
+      <h1 style="text-align: center">Club Members</h1>
+      </div>
+      </div> 
+    </div>
+
+         <div class="box">
+         <div class="row">
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/r0hshxe.png" alt="Leader" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Adrian West</h1> 
+      <p>CHIPS</p> 
+      <p> Position: VP OF Academics </p>
+    </div>
+  </div>
+  </div>
+ 
+
+
+ <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/92GUuDK.png" alt="Leader2" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Mickailia Reid</h1> 
+      <p>CHIPS</p> 
+      <p>Position: President</p>
+    </div>
+  </div>
+  </div>
+   
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/Cgn62PZ.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Orrin Reid</h1> 
+      <p>CHIPS</p> 
+      <p>Position: VP of Social Affairs</p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/SlwbAiJ.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Cliffon Pryce</h1> 
+      <p>CHIPS</p> 
+      <p>Position: Parlimentarian</p>
+    </div>
+  </div>
+  </div>
+  
+
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/h95vXSC.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1> Gregory Binns</h1> 
+      <p>CHIPS</p> 
+      <p>Position: Chaplain</p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/bDH491d.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Courtnae Smith</h1> 
+      <p> CHIPS</p> 
+      <p> Postion: PRO</p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/K1ESJIW.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Taffari Beckford</h1> 
+      <p>CHIPS</p> 
+      <p> Position: Project Manager</p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/vL2fEN0.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Renardio Lopez</h1> 
+      <p>CHIPS</p> 
+      <p> Position: Project Manager Assistant</p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/YaAuMWe.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1> Nathalia Johnson</h1> 
+      <p>CHIPS</p> 
+      <p> Position: Administrative Assistant (AA)</p>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/GagSics.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1> Trisanya Morrison</h1> 
+      <p>CHIPS</p> 
+      <p> Position: Treasurer</p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/rPPJ8P2.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1> Imani Adonis</h1> 
+      <p>CHIPS </p> 
+      <p> Position: AA Advisor</p>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://imgur.com/1A4GTQa.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1> Daavid Sinclair</h1> 
+      <p>CHIPS </p> 
+      <p> Position: Socail Affairs Advisor</p>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+</div>
+
+</div>
+ <footer>
+  <p> Adrian Smith (c)</p>
+</footer>
+
+  </body>
+</html>
