@@ -54,6 +54,7 @@
       position: relative;
       z-index: 0;
   }
+  
   footer{
     margin-top: 5%;
     text-align: center;
@@ -61,4 +62,10 @@
     color: #006fb9;
     background-color: #ffd600;
     clear: both;
+}
+.counter{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+
 }
