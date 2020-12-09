@@ -1,5 +1,6 @@
 body{
-    background-color:grey !important;
+    background-color:#C6AD8F !important;
+    margin: 0%;
 }
 
 .navbar-toggler-icon{
@@ -31,17 +32,27 @@ body{
 .credentials{
     flex: 1;  
 }
-.Cards{
-    width: 100%;
-    bottom: 0%;
 }
 .content {
     margin-top: -0.25rem !important;
   }
+
 footer{
-    text-align: center;
+     text-align: center;
     justify-content: center;
-    color: #006fb9;
-    background-color: #ffcd24;
+    color: #ffffff;
+    background-color:#343a40;
     clear: both;
+    margin: 0%;
+}
+footer .socials{
+    float: inline-end;
+    display: flex;
+    flex-direction: initial;
+    margin: auto;
+}
+
+.fab{
+    font-size: 1.5rem;
+    padding: 4px;
 }

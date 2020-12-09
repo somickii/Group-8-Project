@@ -16,7 +16,9 @@
   <link href="../css/bootstrap css/bootstrap-grid.css" rel="stylesheet">
   <link href="../css/bootstrap css/bootstrap-reboot.css" rel="stylesheet">
 
-
+<!--------------------------------Icon kit---js---------------------------->
+  <script src="https://kit.fontawesome.com/ce241723a0.js" crossorigin="anonymous"></script>
+  <!---------X-----------------------Icon kit---js--------------------X-------->
 </head>
 
 <body>
@@ -65,9 +67,39 @@
       </div>
     </div>
   </section>
-  
-  
-   <!---Carousel--->
+  </br>
+  </br>
+  <!-- Contact Form -->
+  <Section class="content container-fluid" id="wrapper">
+      <!-----Greetings-->
+    <div class="Greetings col-xl-6 col-lg-5 col-md-4 col-sm-3">
+      <p>Feel free to contact us anytime via our social media links below. You can provide your credentials for further information about our department.</p>
+      <img src="../img/email-3249062_1280.png" height="80%" width="75%" alt="Email.png">
+    </div>
+        <form class="credentials">
+          <div class="form-group col-xl-6 col-md-4 col-sm-4">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+          </div>
+          <div class="form-group col-xl-6 col-md-4 col-sm-4">
+            <input class="form-control" type="text" placeholder="First name">
+          </div>
+          <div class="form-group col-xl-6 col-md-4 col-sm-4">
+             <input class="form-control" type="text" placeholder="Last name">
+          </div>
+          <div class="form-group col-4">
+             <input class="form-control" type="number" placeholder="ID number">
+          </div>
+          <div class="form-group col-xl-8 col-md-6 col-sm-4">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </div>
+        </form>
+  </Section>
+  </br>
+  </br>
+     <!---Carousel--->
    <Section>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -124,68 +156,6 @@
       </a>
     </div>
   </Section>
-  
-  </br>
-  </br>
-  <!-- Contact Form -->
-  <Section class="content container-fluid" id="wrapper">
-      <!-----Greetings-->
-    <div class="Greetings col-xl-6 col-lg-5 col-md-4 col-sm-3">
-      <p>Feel free to contact us anytime via our social media links below. You can provide your credentials for further information about our department.</p>
-      <img src="../img/email-3249062_1280.png" height="80%" width="75%" alt="Email.png">
-    </div>
-        <form class="credentials">
-          <div class="form-group col-xl-6 col-md-4 col-sm-4">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-          </div>
-          <div class="form-group col-xl-6 col-md-4 col-sm-4">
-            <input class="form-control" type="text" placeholder="First name">
-          </div>
-          <div class="form-group col-xl-6 col-md-4 col-sm-4">
-             <input class="form-control" type="text" placeholder="Last name">
-          </div>
-          <div class="form-group col-4">
-             <input class="form-control" type="number" placeholder="ID number">
-          </div>
-          <div class="form-group col-xl-8 col-md-6 col-sm-4">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-          </div>
-          <div class="btn">
-            <button type="submit" class="btn btn-warning">Submit</button>
-          </div>
-        </form>
-  </Section>
-  </br>
-  </br>
-    <!---Cards-->
-    <Section class="Cards container-fluid">
-    <div class="card-group">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">CHIPS</h5>
-          <p class="card-text">CHIPS chess-club</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-  </Section>
   </main>
   <!-- Bootstrap core JavaScript -->
   <script src="../javascript/Jquery/jquery.slim.min.js"></script>
@@ -195,7 +165,15 @@
   <script src="../javascript/Bootstrap js/bootstrap.js.map"></script>
   <!--Footer-->
 <footer>
-  <p>Floyd Farquharson &#169 2020</p>
+  <div class="socials">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram-square"></i>
+    <i class="fab fa-twitter-square"></i>
+    <i class="fab fa-youtube"></i>
+  </div>
+  <div class="copyright">
+    <p>Floyd Farquharson &#169 2020</p>
+  </div>
 </footer>
 </body>
 

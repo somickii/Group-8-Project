@@ -6430,6 +6430,8 @@
   
   .carousel {
     position: relative;
+    align-content: center;
+    margin: 30px;
   }
   
   .carousel.pointer-event {
