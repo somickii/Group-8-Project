@@ -31,7 +31,9 @@ html, body{
     --Livvic : 'Livvic', cursive;
 }
 
-
+.quickComment{
+    width: 300px;
+}
 /* ---------------- Global Classes ---------------*/
 
 a{

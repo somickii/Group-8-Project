@@ -1,5 +1,5 @@
 body{
-    background-color:#C6AD8F !important;
+    background-color:#ffffff !important;
     margin: 0%;
 }
 
@@ -32,7 +32,7 @@ body{
 .credentials{
     flex: 1;  
 }
-}
+
 .content {
     margin-top: -0.25rem !important;
   }
