@@ -1,8 +1,9 @@
 # Group-8-Project
 Group Assignment to build a website for our favorite club. Our Group Chose CHIPS@NCU and THE VINE
 
-### Blog
-Link: hhttps://github.com/somickii/Group-8-Project/edit/Official-Submission/index.html
+### Resources
+Link: https://github.com/somickii/Group-8-Project/edit/Official-Submission/index.html
+https://drive.google.com/drive/folders/1bEedYZ_8SLuiDllLOtz8v11ii_ExTRFX?usp=sharing
 
 ### Objectives Completed
 - [x] Home Page
