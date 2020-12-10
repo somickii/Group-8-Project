@@ -15,7 +15,7 @@ Link: hhttps://github.com/somickii/Group-8-Project/edit/Official-Submission/inde
 
 
 ### Project Timeline 
-<img src="Project Timeline.PNG" height = "480" width="270">
+<img src="../img/Project Timeline.PNG" height = "700" width="700">
 
 
 
