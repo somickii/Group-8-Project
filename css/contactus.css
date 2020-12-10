@@ -24,7 +24,9 @@ body{
 #wrapper{
     display: flex;
 }
-
+.carousel-control-prev{
+    color: black;
+}
 .Greetings{
     color: white;
     flex: 0 0 65%;
